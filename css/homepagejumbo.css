@@ -47,15 +47,6 @@
     opacity: 1;
   }
 }
-.particlesJ{
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
-#particles-js {
-  height: 100%;
-  background: #262626;
-}
 
 body {
   margin: 0;
