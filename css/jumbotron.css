@@ -47,7 +47,7 @@ html{
   border-radius: 10px;
   margin-bottom: 15px;
   display: inline-block;
-  background: rgba(125, 169, 178, .5);
+  background: rgba(111, 112, 121, .5);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -66,7 +66,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgba(125, 169, 178, 0.5);
+  background: url("25231.svg") rgba(111, 112, 121, 0.5);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -89,7 +89,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgba(125, 169, 178, .5);
+  background: url("25231.svg") rgba(111, 112, 121, .5);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -170,7 +170,7 @@ html{
 }
 
 .terminateButton > div{
-  background-color: rgba(125, 169, 178, .5);
+  background-color: rgba(111, 112, 121, .5);
   padding: 1em;
   padding-right: 15px;
   padding-left: 15px;
@@ -187,7 +187,7 @@ html{
 }
 
 .gantPic > div{
-  background-color: rgba(125, 169, 178, .5);
+  background-color: rgba(111, 112, 121, .5);
   padding: 1em;
   padding-right: 15px;
   padding-left: 15px;
@@ -202,7 +202,7 @@ html{
   margin-left: 25px;
 }
 .wrapper > div{
-  background-color: rgba(125, 169, 178, .5);
+  background-color: rgba(111, 112, 121, .5);
   padding: 1em;
   padding-right: 15px;
   padding-left: 15px;
@@ -262,7 +262,7 @@ a.fill-div {
   position: relative;
   margin-left: 50%;
   transform: translateX(-50%);
-  background: rgba(125, 169, 178, .5);
+  background: rgba(111, 112, 121, .5);
 }
 .textBordering{
   border: solid 1.5px black;
