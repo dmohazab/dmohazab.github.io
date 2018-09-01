@@ -38,9 +38,8 @@ html{
 }
 
 .topJump{
-  width: 55vw;
-  height: 100px;
-  background-color: rgba(0, 0, 0, .5);
+  width: 22vw;
+  height: 70px;
   position: relative;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -52,6 +51,24 @@ html{
   background-size: 50% 100%;
   background-position: center;
   border: 2px solid black;
+  opacity: .35;
+}
+
+.topJump:hover{
+  opacity: .7;
+}
+
+.bkText{
+  font-size: 1.7vw;
+  width: 100%;
+  transform: translateX(-55%);
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  margin-bottom: 20.01px;
+  opacity: 30%;
 }
 
 .accordion{
