@@ -46,7 +46,7 @@ html{
   border-radius: 10px;
   margin-bottom: 15px;
   display: inline-block;
-  background: rgba(111, 112, 121, .5);
+  background: rgb(0, 110, 157);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -83,7 +83,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgba(111, 112, 121, 0.5);
+  background: url("25231.svg") rgb(0, 110, 157);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -106,7 +106,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgba(111, 112, 121, .5);
+  background: url("25231.svg") rgb(0, 110, 157);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -114,7 +114,7 @@ html{
 
 .expanding:hover{
   width: 70vw;
-  height: 36vh;
+  height: 38vh;
   display: text;
 }
 
