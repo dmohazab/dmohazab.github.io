@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/colouring.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/jumbotron.css">
@@ -21,7 +20,7 @@
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
+          <div class="navbar-header" id="jumpTop">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -50,7 +49,7 @@
       </nav>
     </header>
 
-    <div class="jumbotron jumbotron-fluid vertical-center">
+    <div class="jumbotron jumbotron-fluid vertical-center" id="borderJump">
       <div class="project-container">
         <h1 class="border"> Projects </h1>
       </div>
@@ -59,38 +58,53 @@
       </section>
     </div>
 
-    <div class="titlePad" id="arrowSlide">
-      <h1 class="titleBorder"> <center> Robot C-Major <center> </h1>
-    </div>
-
-
 <br><br><br><br>
 
-<a href="https://github.com/dmohazab/Robot-C-Major">
-  <div class="spacing accordion">
+<a target="_blank" href="https://github.com/dmohazab/Robot-C-Major">
+  <div id="arrowSlide" class="spacing accordion">
   <h1 class="movingstuff">RobotC-Major</h1>
-  <p class="accText">A guitar playing robot created by multithreading parallel lists with a music note file reader to automate the strumming and chording
-  mechanisms and play songs. Uses motor I/O to both strum on tempo and hold power chords. </p>
+  <p class="accText">View the above project's source code on GitHub</p>
 </div>
 </a>
 
-<a href="https://github.com/dmohazab/AutoBalance">
+<a target="_blank" href="https://github.com/dmohazab/AutoBalance">
   <div class="expanding">
   <h1 class="movingstuff">AutoBalance</h1>
   <p class="accText"> An android application I created during
   my time working at Scotiabank that helped reduce the time it took
-to balance when counting cash at the end of a work day. </p>
+to balance when counting cash at the end of a work day. The app takes in user inputs from
+front and backend treasury locations compiles the data to
+return a final amount in which you would enter into Scotiabank's
+ built in closing software. Rather than follow in the path of my
+ coworkers and predecessors (pencil, paper, calculator, and lots of
+ wasted time), I used this app to make closing for the day quick and efficient. </p>
 </div>
 </a>
 
-<a href="https://github.com/dmohazab/dmohazab.github.io">
+<a target="_blank" href="https://github.com/dmohazab/Crawler">
+<div class="accordion">
+  <h1 class="movingstuff">SiteSpider</h1>
+  <p class="accText"> A personal webcrawler used to create a sitemap of this website. </p>
+</div>
+</a>
+
+<a target="_blank" href="https://github.com/dmohazab/dmohazab.github.io">
 <div class="accordion">
   <h1 class="movingstuff">Portfolio</h1>
   <p class="accText"> View the source code for this website. </p>
 </div>
 </a>
 
+<br> <br> <br> <br>
 
+<br> <br> <br> <br>
+<div id="section05">
+<a href="#borderJump" class="slide-section">
+<div class="topJump">
+  <h1 class="bkText">Back to Top</h1>
+</div>
+</a>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
