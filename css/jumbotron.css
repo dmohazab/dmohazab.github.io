@@ -46,7 +46,7 @@ html{
   border-radius: 10px;
   margin-bottom: 15px;
   display: inline-block;
-  background: rgb(0, 110, 157);
+  background: rgb(51, 51, 51);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -83,7 +83,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgb(0, 110, 157);
+  background: url("25231.svg") rgb(51, 51, 51);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -106,7 +106,7 @@ html{
   border: 2px solid black;
   margin-bottom: 15px;
   display: inline-block;
-  background: url("25231.svg") rgb(0, 110, 157);
+  background: url("25231.svg") rgb(51, 51, 51);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: center;
@@ -241,7 +241,7 @@ a.fill-div {
     text-decoration: none;
 }
 .spacing{
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .RobotCMajor{
